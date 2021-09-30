@@ -1,0 +1,47 @@
+﻿iframe {
+	position:absolute
+}
+
+#media>div {
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+	position: absolute;
+	width: 100vw !important;
+	height: 100vh !important;
+
+	z-index: -1 !important;
+}
+
+#mainCanvas {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+}
+
+#gameCanvas {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+}
+#songURL {
+	top: 68vh;
+	right: 20vw;
+	margin: auto;
+	position: absolute;
+	z-index: 3;
+}

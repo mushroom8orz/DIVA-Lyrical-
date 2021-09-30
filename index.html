@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="IE=Edge">
+  <meta name="author" content="mush">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>DIVA-Lyrical-</title>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/textalive-app-api/dist/index.js"></script>
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div id="media"></div>
+  <canvas id="gameCanvas" width="1280" height="720"></canvas>
+  <canvas id="mainCanvas" width="1280" height="720"></canvas>
+  <input type="text" value="input youtube URL" style="width: 300px; height: 30px;" id="songURL">
+</body>
+
+<script src="./note.js"></script>
+<script src="./TextButton.js"></script>
+<script src="./game.js"></script>
+<script src="./textalive.js"></script>
+<script>new TextAlive()</script>
+
+</html>
