@@ -219,13 +219,13 @@ class TextAlive {
 	setSong6(e) {
 		this.id = 6;
 		this.frame.x = 1280 / 12;
-		this.frame.y = 7200 * 4 / 6;
+		this.frame.y = 720 * 4 / 6;
 		this.setSong();
 	}
 	setSong7(e) {
 		this.id = 7;
-		this.frame.x = 1280 / 12;
-		this.frame.y = 7200 * 4 / 6;
+		this.frame.x = 1280 * 7 / 12;
+		this.frame.y = 720 * 4 / 6;
 		this.songURL = this.input.htmlElement.value;
 		this.setSong();
 	}
