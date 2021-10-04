@@ -439,7 +439,7 @@
 	}
 
 	setTwitter(e) {
-		let text = "初音ミク「マジカルミライ 2021」プログラミング・コンテスト 「DIVA:Lyrics」で『" + this.song + "』をプレイ！ " + this.evalate + " を獲得したよ！";
+		let text = "初音ミク「マジカルミライ 2021」プログラミング・コンテスト 「DIVA-Lyrical-」で『" + this.song + "』をプレイ！ " + this.evalate + " を獲得したよ！";
 		let url = "https://magicalmirai.com/2021/procon/";
 
 		let hash = "マジカルミライ2021,mm2021procon,初音ミク"
