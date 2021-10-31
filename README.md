@@ -48,7 +48,8 @@ Webアプリ初心が3カ月(学習に2カ月使ったため製作期間は実�
   </a>
 </p>
 CreateJSは、HTML5でリッチコンテンツを制作するためのJavaScriptライブラリのスイート（特定用途のソフトウェアを詰め合わせたパッケージ）です。
-[入門サイト](https://ics.media/tutorial-createjs/)
+
+[入門サイト](https://mushroom8orz.github.io/DIVA-Lyrical-/)
 
 ### TextAlive App API
 
